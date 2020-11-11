@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--visningsport för att webbplatsen ska se bra ut på alla enheter-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Ladda typsnitt fantastiska ikoner -->
+    <link rel="stylesheet" href="style.css"> <!--relation mellan HTML-CSS-->
+    <title>Golden Art</title>
+</head>
+<body>
+
+   <!--Navigation Bar-->
+    <div class="header">
+        <div class="header-one">
+            <a href="index.html">
+              <div class="logo"></div>  <!--Logo-->
+            </a>
+            <a class="hed" href="index.html">Home</a>
+            <a class="hed" href="omoss.html">Om oss</a>
+            <a class="hed" href="tjenster.html">Tjänster</a>
+            <a class="hed" href="gallery.html">Galleri</a>
+            <a class="hed" href="jobb.html">Jobb </a>
+            <a class="hed" href="kontakt.html">Kontakt</a>
+            <a class="hed" href="#Begäroffert">Begär offert</a> <!--det funkar inte-->
+            </div>
+      </div>
+    
+      
+
+      <div class="row">
+        <div class="str col-s-3 menu">
+          <ul>
+            <li>Våra tjänster</li>
+            <li>Betalningsmetod</li>
+            <li>Om oss</li>
+            <li>Kontakt</li>
+          </ul>
+        </div>
+      
+
+      <!--Slides container-->
+        <div class="bin col-s-9">
+            <div class="slide">
+
+                <div class="mySlides fade">
+                  <img src="img/interior-3551003_1280.jpg" alt="interior" style="width:100%">
+                  <div class="text">Julrea på helrenovering</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="img/living-room-2569325_1280.jpg" alt="livingroom" style="width:100%">
+                  <div class="text">Våra idéer och erbjudanden</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="img/kitchen-1867663_1280.jpg" alt="kitchen" style="width:100%">
+                  <div class="text">Gratis konsultationer och erbjudanden</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="img/sofa-184555_1280.jpg" alt="sofa" style="width:100%">
+                    <div class="text">Rabatter för totalrenovering</div>
+                  </div>
+
+                <div class="mySlides fade">
+                  <img src="img/bathroom-1336164_1280.jpg" alt="bathroom" style="width:100%">
+                  <div class="text">Kvalitet, hastighet och precision</div>
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </div>
+        
+        <!--Om oss container-->
+        <div class="str col-s-12">
+          <div class="omOss">
+            <h2>OM OSS</h2>
+            <h3>Välkommen till Golden Art AB</h3><br>
+            <p>Vi är ett byggföretag specialiserat på renoveringstjänster i hela 
+              Stockholm. Vi vänder oss till både privat och företagskunder.</p><br>
+            <p>Att vara kreativa med fokus på ansvar och hög kvalitet är vårt motto.</p><br>
+            <p>För oss är varje kund unik!</p><br>
+            <p>Vi sätter kunderna i centrum och hjälper dem genom hela processen, 
+              från önskemål och idé till färdig projekt.</p><br>
+            <p>Golden Art AB är ett företag med mycket gott arbetsklimat och en ledning med gehör.</p><br>
+            <p>Vår personal är vår största stryrka inom företaget. De är professionella med många
+               års arbetslivserfarenhet och levererar riktigt hög kvalitet och unika projekt.</p><br>
+            <p>Alla arbetar vi åt samma mål att ge våra kunder bästa möjliga service.</p><br>
+            <h4>Betalningsmetod!</h4><br>
+            <p>Vi samarbetar med Wasa Kredit som är ett helägt dotterbolag till Länsförsäkringar 
+              Bank som erbjuder en flexibel och förmånlig finanseringslösning. 
+              Tillsammans med Wasa Kredit erbjuder vi våra kunder en delbetalningslösning som passar er och ert hushåll.</p><br>
+            <p>Delbetalning är enkelt, tryggt och flexibel för er som kunder.</p><br>
+            <p>Våra säljare hjälper till med er ansökan och kan berätta mer om de förmånliga 
+              alternativ ni har som kunder hos Golden Art AB.</p><br>
+            
+            <h4>Varmt välkomna att höra av er med era idéer och önskemål!</h4>
+          </div>
+        </div>
+      </div>
+      
+    
+      <script src="code.js"></script>  <!--Lägg till JavaScript i HTML-->
+
+      <!--footer-->
+        <footer>
+          <div class="footer">
+          
+          <section>
+                <div class="header-two">
+                    <h2>Golden Art</h2>
+                </div>
+                <p>Adress:</p>
+                <p>Kooparvägen 25</p>
+                <p>17672 Järfälla</p>
+              </section>
+            <section>
+              <div class="header-two">
+                    <h2>Kontakt</h2>
+              </div>
+                <p>Vande Nikolovski</p>
+                <p>mob: 0700 484 114</p>
+                <p>mob: 0707 776 420</p>
+            </section>
+            <section>
+              <div class="header-two">
+                    <h2>Om oss</h2>
+              </div>
+                <a href="#" class="fa fa-facebook"></a> <!--Style Social Media Buttons-->
+                <a href="#" class="fa fa-twitter"></a>  <!--Style Social Media Buttons-->
+                <a href="#" class="fa fa-skype"></a>  <!--Style Social Media Buttons-->
+              </section>
+            
+          </div>
+        </footer>
+      
+
+
+
+
+</body>
+</html>
